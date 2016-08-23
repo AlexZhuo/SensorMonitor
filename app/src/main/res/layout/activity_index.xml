@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE7BA"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#484848" >
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/shimmer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="false"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="安卓示波器"
+            android:textColor="#444"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <vc.zz.qduxsh.sensormonitor.FButton
+        android:id="@+id/myPhone"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="查看手机传感器列表"
+        fbutton:buttonColor="@color/fbutton_color_pumpkin"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_concrete"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_below="@id/myPhone"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/accelButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="查看加速度传感器"
+                fbutton:buttonColor="@color/fbutton_color_peter_river"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_color_concrete"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/proxiButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看近距离传感器"
+                fbutton:buttonColor="@color/fbutton_color_orange"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/lightButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看亮度传感器"
+                fbutton:buttonColor="@color/fbutton_color_silver"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/magButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看磁场传感器"
+                fbutton:buttonColor="@color/fbutton_color_orange"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/tempratrueButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看温度传感器"
+                fbutton:buttonColor="@color/fbutton_color_sun_flower"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/humidityButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看湿度传感器"
+                fbutton:buttonColor="@color/fbutton_color_silver"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/gravityButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看重力传感器"
+                fbutton:buttonColor="@color/fbutton_color_pomegranate"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/pressureButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看压力传感器"
+                fbutton:buttonColor="@color/fbutton_color_turquoise"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+            <vc.zz.qduxsh.sensormonitor.FButton
+                android:id="@+id/rotateButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="查看转动传感器"
+                fbutton:buttonColor="@color/fbutton_color_carrot"
+                fbutton:cornerRadius="5dp"
+                fbutton:shadowColor="@color/fbutton_default_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

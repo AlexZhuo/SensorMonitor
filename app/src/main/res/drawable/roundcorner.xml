@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>    
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">     
+    <item>     
+          <shape>     
+                <solid android:color="#ffffff" /><!-- 连框颜色值 -->
+                  
+                <!-- 设置圆角边框 -->  
+                 <corners   
+                 android:topLeftRadius="5dp"       
+                 android:topRightRadius="5dp"        
+                 android:bottomRightRadius="5dp"       
+                 android:bottomLeftRadius="5dp"  
+                 />      
+          </shape>     
+    </item>     
+    <!-- 主体背景颜色值 -->    
+    <item android:bottom="2dp" android:top="2dp" android:left="2dp" android:right="2dp"> <!--上下左右四个边框的宽度，为0的话就没有了-->    
+         <shape>     
+               <solid android:color="#ff222222" />  <!-- 背景白色 -->
+         </shape>         
+    </item>    
+    </layer-list>   
