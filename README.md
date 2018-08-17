@@ -4,16 +4,16 @@ AChartEngine是一个很强大的图表引擎，学生时代利用它做了一�
 
 该APP的运行效果是这样的
 
-![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/gif_demo.gif)
+![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/gif_demo.gif?raw=true)
 
-应用宝上线地址：<a src="http://android.myapp.com/myapp/detail.htm?apkName=haha.situ.geekandroid"> http://android.myapp.com/myapp/detail.htm?apkName=haha.situ.geekandroid </a>
+思路和代码详解请看我的博客：<a src="https://blog.csdn.net/lvshaorong/article/details/52293291"> https://blog.csdn.net/lvshaorong/article/details/52293291 </a>
 
 APP截图：
 
-![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot1.jpg)
-![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot2.jpg)
-![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot3.jpg)
-![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot4.jpg)
+![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot1.jpg?raw=true)
+![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot2.jpg?raw=true)
+![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot3.jpg?raw=true)
+![demo](https://github.com/AlexZhuo/SensorMonitor/blob/master/demos/screenshot4.jpg?raw=true)
 
 根目录下有编译好的apk，效果和应用宝上的一样，也可以直接从应用宝安装
 
